@@ -18,7 +18,7 @@ This dataset was uploaded to Google Colab and converted to a data frame using Pa
  <img width="913" alt="defineModel" src="https://github.com/mhanson16/deep-learning-challenge/assets/119544491/a8275601-924a-4efb-98f6-530fedc3f739">
 
     * The first model included the layers and functions mentioned above with both the EIN and NAME variables removed. This model resulted in a 73.07% accuracy rate, not meeting the goal of 75% accuracy. 
-    <img width="684" alt="model1acc" src="https://github.com/mhanson16/deep-learning-challenge/assets/119544491/1be4c412-b28d-4588-b8fb-6b898f4fdcfc">
+  
 
     
     
@@ -29,8 +29,7 @@ This dataset was uploaded to Google Colab and converted to a data frame using Pa
     After many attempts of changing the model in ways of removing non-numerical columns, adding layers, adding and removing neurons and epochs, I saw little to no improvement in the accuracy levels. I then decided to start back from the original model, and make small adjustments from there. I added back the NAME variable and followed the same practice of filter done on the other variables. There were 19,568 unique organization names, therefore many must have multiple instance of observation. Using the value_counts() function, I removed any names with less than 100 instances. Keeping the layers, functions, and neurons the same as the first model I was able to achieve 75.65% accuracy.
     
     
-    
-    <img width="626" alt="model2acc" src="https://github.com/mhanson16/deep-learning-challenge/assets/119544491/d08d42e9-c403-45e7-b7d7-c680e1399a78">
+  
 
 
 * Summary
