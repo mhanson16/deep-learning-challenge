@@ -31,7 +31,7 @@ This dataset was uploaded to Google Colab and converted to a data frame using Pa
     
     
     
-   * After many attempts of changing the model in ways of removing non-numerical columns, adding layers, adding and removing neurons and epochs, I saw little to no improvement in the accuracy levels. I then decided to start back from the original model, and make small adjustments from there. I added back the NAME variable and followed the same practice of filter done on the other variables. There were 19,568 unique organization names, therefore many must have multiple instance of observation. Using the value_counts() function, I removed any names with less than 100 instances. Keeping the layers, functions, and neurons the same as the first model I was able to achieve 75.65% accuracy.
+      * After many attempts of changing the model in ways of removing non-numerical columns, adding layers, adding and removing neurons and epochs, I saw little to no improvement in the accuracy levels. I then decided to start back from the original model, and make small adjustments from there. I added back the NAME variable and followed the same practice of filter done on the other variables. There were 19,568 unique organization names, therefore many must have multiple instance of observation. Using the value_counts() function, I removed any names with less than 100 instances. Keeping the layers, functions, and neurons the same as the first model I was able to achieve 75.65% accuracy.
 
 <img width="626" alt="model2acc" src="https://github.com/mhanson16/deep-learning-challenge/assets/119544491/b8769147-f2e0-426c-825b-5fcf576f4ee5">
 
@@ -42,6 +42,28 @@ This dataset was uploaded to Google Colab and converted to a data frame using Pa
 
 * Summary
     With the use of deep learning, I was able to develop a model resulting in the desired accuracy level without removing too much of the original data. Though the NAME variable was originally seen as irrelevant it ended up being a key factor in reaching the end goal. I would recommend this process in for Alphabet Soup to determine their future ventures.
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 Crediting Module 21 - Neutral Networks Deep Learning Module of UC Berkeley Data Analytics Bootcamp for source code to develop and assist with the creation of this model.
