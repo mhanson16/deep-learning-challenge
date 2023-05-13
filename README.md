@@ -15,11 +15,11 @@ This dataset was uploaded to Google Colab and converted to a data frame using Pa
 
 * Compiling, Training, and Evaluating the Model
     * For both the original and optimized models I used 2 hidden layers with 80 neurons in layer 1 and 30 neurons in layer 2. Having more than 1 hidden layer is needed in deep learning to develop an understanding of there non-linear relationships. There are only about 10 input features so the number of neurons should remain around 5x that amount, I chose 30 and 80 to provide a variety. The rectified linear unit activation function was selected due to the need for a simplified and non-negative output for this complex model.
+    * The first model included the layers and functions mentioned above with both the EIN and NAME variables removed. This model resulted in a 73.07% accuracy rate, not meeting the goal of 75% accuracy. 
 
 <img width="913" alt="defineModel" src="https://github.com/mhanson16/deep-learning-challenge/assets/119544491/fdf1ff13-c662-4995-8c05-7c8c3d4a8160">
 
 
-    * The first model included the layers and functions mentioned above with both the EIN and NAME variables removed. This model resulted in a 73.07% accuracy rate, not meeting the goal of 75% accuracy. 
    
 <img width="684" alt="model1acc" src="https://github.com/mhanson16/deep-learning-challenge/assets/119544491/bab7c970-732f-417c-8bc1-e308f5d94cb3">
 
