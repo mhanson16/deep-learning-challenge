@@ -13,11 +13,11 @@ This dataset was uploaded to Google Colab and converted to a data frame using Pa
   * The feature variables are all other variables not eliminated from the data frame, including AFFILIATION, APPLICATION_TYPE, CLASSIFICATION, USE_CASE, ORGANIZATION	STATUS, INCOME_AMT,        SPECIAL_CONSIDERATIONS, and ASK_AMT. Both the APPLICATION_TYPE and CLASSIFICATION variables were simplify to remove outliers to provide a better focus on the dataset.
   * The first attempt, both the NAME and EIN were removed from the data frame as they are seen as irrelevant as they are not numerical.
 
-<img width="913" alt="defineModel" src="https://github.com/mhanson16/deep-learning-challenge/assets/119544491/db802a92-77e6-40ba-8e1b-0a544a895688">
-
-
 * Compiling, Training, and Evaluating the Model
   * For both the original and optimized models I used 2 hidden layers with 80 neurons in layer 1 and 30 neurons in layer 2. Having more than 1 hidden layer is needed in deep learning to develop an understanding of there non-linear relationships. There are only about 10 input features so the number of neurons should remain around 5x that amount, I chose 30 and 80 to provide a variety. The rectified linear unit activation function was selected due to the need for a simplified and non-negative output for this complex model.
+
+<img width="913" alt="defineModel" src="https://github.com/mhanson16/deep-learning-challenge/assets/119544491/09644c61-9be0-4d45-8e9a-7c5001612271">
+
   * The first model included the layers and functions mentioned above with both the EIN and NAME variables removed. This model resulted in a 73.07% accuracy rate, not meeting the goal of 75% accuracy.
 <img width="684" alt="model1acc" src="https://github.com/mhanson16/deep-learning-challenge/assets/119544491/b248147d-5d7d-47a3-b8b4-dda731c8ad27">
 
