@@ -19,10 +19,12 @@ This dataset was uploaded to Google Colab and converted to a data frame using Pa
 * Compiling, Training, and Evaluating the Model
   * For both the original and optimized models I used 2 hidden layers with 80 neurons in layer 1 and 30 neurons in layer 2. Having more than 1 hidden layer is needed in deep learning to develop an understanding of there non-linear relationships. There are only about 10 input features so the number of neurons should remain around 5x that amount, I chose 30 and 80 to provide a variety. The rectified linear unit activation function was selected due to the need for a simplified and non-negative output for this complex model.
   * The first model included the layers and functions mentioned above with both the EIN and NAME variables removed. This model resulted in a 73.07% accuracy rate, not meeting the goal of 75% accuracy.
+<img width="684" alt="model1acc" src="https://github.com/mhanson16/deep-learning-challenge/assets/119544491/b248147d-5d7d-47a3-b8b4-dda731c8ad27">
 
 
   * After many attempts of changing the model in ways of removing non-numerical columns, adding layers, adding and removing neurons and epochs, I saw little to no improvement in the accuracy levels. I then decided to start back from the original model, and make small adjustments from there. I added back the NAME variable and followed the same practice of filter done on the other variables. There were 19,568 unique organization names, therefore many must have multiple instance of observation. Using the value_counts() function, I removed any names with less than 100 instances. Keeping the layers, functions, and neurons the same as the first model I was able to achieve 75.65% accuracy.
 
+<img width="626" alt="model2acc" src="https://github.com/mhanson16/deep-learning-challenge/assets/119544491/34d50d80-2ea5-454c-9e69-11b208c2d5d1">
 
 ## Summary
 
