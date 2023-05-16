@@ -2,7 +2,7 @@
 
 The goal of this project was to help Alphabet Soup, a non-profit organization, improve their rate of successful ventures through machine learning and neural networks. 
 
-The dataset provided by Alphabet Soup included 34,000 organizations that have previously received funding and information such as, application type, classification, and success status. It is important to confidently and accurately select recipients in order to continue this practice and provide support to organizations that are successfully making a difference.
+The dataset provided by Alphabet Soup included 34,000 organizations that have previously received funding with information such as, application type, classification, and success status. It is important to confidently and accurately select recipients in order to continue this practice and provide support to organizations that are successfully making a difference.
 
 This dataset was uploaded to Google Colab and converted to a data frame using Pandas, and evaluated as a neural network model using scikit-learn and tensorflow.
 
