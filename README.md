@@ -29,3 +29,5 @@ This dataset was uploaded to Google Colab and converted to a data frame using Pa
 ## Summary
 
 With the use of deep learning, I was able to develop a model resulting in the desired accuracy level without removing too much of the original data. Though the NAME variable was originally seen as irrelevant it ended up being a key factor in reaching the end goal. I would recommend this process for Alphabet Soup to determine their future ventures.
+
+Crediting Module 21 - Neutral Networks Deep Learning Module of UC Berkeley Data Analytics Bootcamp for source code to develop and assist with the creation of this model.
